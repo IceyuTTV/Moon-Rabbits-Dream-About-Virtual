@@ -28,59 +28,60 @@
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
 
 /* Add transparency for background images */
-/* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css'); */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css');
 
 /* Pop Effect */
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
 
 /* Reverse the position of Server list and members */
-@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/reverse.css');
+/* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/reverse.css'); */
+
 
 /*------------------------------------------------------
                 all the customization
 ------------------------------------------------------*/
 :root {
     /* The text that appear in top, leave it blank ("") if you dont want any */
-    --custom-text: "TSUKINO MITO";
+    --custom-text: "ICEYDARK OS";
 
     /* General Colors */
-    --border-color: #da4a60;
-    --drag-gradient1: #e8c4d3;
-    --drag-gradient2: #e39ba7;
-    --name-bg: #d95b72;
+    --border-color: #200370;
+    --drag-gradient1: #000370;
+    --drag-gradient2: #100370;
+    --name-bg: #000370;
 
     /* Background Colors & BG Image */
-    --bg-gradient1: #e297b2;
-    --bg-gradient2: #c0b4d5;
-    --bg-gradient3: #54b5de;
-    --bg-image: none; /* Write the image url, example url("your url") [none is default]*/
+    --bg-gradient1: #300370;
+    --bg-gradient2: #400370;
+    --bg-gradient3: #500370;
+    --bg-image: url("https://media.discordapp.net/attachments/931920956065214505/1126665370359570592/wqQh0Th.png?width=988&height=655");
     --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
-    --bg-blur: 6px; /* Value in px */
+    --bg-blur: 0px; /* Value in px */
 
     /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
-    --H: 339; /* Value in numbers [339 is default] */
-    --S: 97%; /* Value in % [97% is default] */
-    --L: 71%; /* Value in % [71% is default] */
+    --H: 274; /* Value in numbers [339 is default] */
+    --S: 95%; /* Value in % [97% is default] */
+    --L: 23%; /* Value in % [71% is default] */
 
     /* HSL DarkTheme */
-    --darkH: 0;     /* Value in numbers [0 is default] */
-    --darkS: 0%;    /* Value in % [0% is default] */
-    --darkL: 16%;   /* Value in % [16% is default] */
+    --darkH: 265;     /* Value in numbers [0 is default] */
+    --darkS: 95%;    /* Value in % [0% is default] */
+    --darkL: 23%;   /* Value in % [16% is default] */
 
     /* Windows Buttons Colors */
-    --close-color: #da5169;
-    --max-color: #ffdf5b;
-    --min-color: #00a0cb;
+    --close-color: #400370;
+    --max-color: #400370;
+    --min-color: #400370;
 
     /* Status Colors */
     --online-color: #60e046;
     --idle-color: #ffca3a;
-    --dnd-color: #f73c3c;
-    --offline-color: #707070;
-    --streaming-color: #f066f0;
+    --dnd-color: #ff723a;
+    --offline-color: #ff3a3a;
+    --streaming-color: #ff3a6b;
 
     /* Chatbar Colors */
-    --channeltextarea-background: #F0F2F2;
+    --channeltextarea-background: rgb(255, 255, 255);
     --text-color: #313D40;
     --icon-color: var(--text-color);
     --selected-text-bg: var(--text-color);
